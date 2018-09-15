@@ -23,5 +23,5 @@ public class ExchangeRateRepository {
         exchangeRates.put("EUR-DOP", 57.97);
         exchangeRates.put("DOP-EUR", 0.017);
     }
-    
+
 }
