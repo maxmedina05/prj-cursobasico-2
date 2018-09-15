@@ -1,6 +1,6 @@
-package com.example.medma.divisascalc;
+package com.example.medma.divisascalc.models;
 
-class ExchangeRate {
+public class ExchangeRate {
 
     private String currencyFrom;
     private String currencyTo;

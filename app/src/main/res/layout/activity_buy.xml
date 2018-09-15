@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".BuyActivity">
+    tools:context=".oldactivities.BuyActivity">
 
     <TextView
         android:id="@+id/our_buy_rate_is"

@@ -1,9 +1,9 @@
-package com.example.medma.divisascalc;
+package com.example.medma.divisascalc.models;
 
 /**
  * Represents a real monetary value with it's ISO code that illustrates it.
  */
-class Currency {
+public class Currency {
 
     private String symbol;
     private double amount;

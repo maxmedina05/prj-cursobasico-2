@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BuyActivity" />
+        <activity android:name=".oldactivities.BuyActivity" />
         <activity android:name=".BuySellBaseActivity" />
-        <activity android:name=".SellActivity"/>
+        <activity android:name=".oldactivities.SellActivity"/>
     </application>
 
 </manifest>

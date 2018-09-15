@@ -8,6 +8,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.medma.divisascalc.helpers.CurrencyCalculator;
+import com.example.medma.divisascalc.models.Currency;
+import com.example.medma.divisascalc.models.ExchangeRate;
+
 public class BuySellBaseActivity extends AppCompatActivity implements View.OnClickListener {
     public static final String EXTRA_TRANSACTION_TYPE = "EXTRA_TRANSACTION_TYPE";
     protected EditText etInputFirst;

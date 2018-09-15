@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.medma.divisascalc.oldactivities.BuyActivity;
+import com.example.medma.divisascalc.oldactivities.SellActivity;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override

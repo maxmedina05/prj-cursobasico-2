@@ -1,5 +1,9 @@
 package com.example.medma.divisascalc;
 
+import com.example.medma.divisascalc.helpers.CurrencyCalculator;
+import com.example.medma.divisascalc.models.Currency;
+import com.example.medma.divisascalc.models.ExchangeRate;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

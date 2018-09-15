@@ -1,14 +1,18 @@
-package com.example.medma.divisascalc;
+package com.example.medma.divisascalc.oldactivities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class BuyActivity extends AppCompatActivity implements View.OnClickListener {
+import com.example.medma.divisascalc.InvalidCurrencyException;
+import com.example.medma.divisascalc.R;
+import com.example.medma.divisascalc.helpers.CurrencyCalculator;
+import com.example.medma.divisascalc.models.Currency;
+import com.example.medma.divisascalc.models.ExchangeRate;
+
+public class SellActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText etCustomerInput;
     EditText etOutput;
@@ -16,7 +20,7 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buy);
+        setContentView(R.layout.activity_sell);
 
         etCustomerInput = findViewById(R.id.et_input);
         etOutput = findViewById(R.id.et_output);
@@ -37,7 +41,7 @@ public class BuyActivity extends AppCompatActivity implements View.OnClickListen
 
     private void computeExchangeRate(double value) throws InvalidCurrencyException {
         Currency usd = new Currency("USD", value);
-        ExchangeRate exRate = new ExchangeRate("USD", "DOP", 50);
+        ExchangeRate exRate = new ExchangeRate("USD", "DOP", 49);
         Currency dop = CurrencyCalculator.computeExchange(usd, exRate);
 
         UpdateUI(Double.toString(dop.getAmount()));
