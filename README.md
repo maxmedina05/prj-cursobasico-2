@@ -20,7 +20,7 @@ Abrir con Android estudio
 
 ## Authors
 
-* **Max Medina** - *Trabajo Original* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Max Medina** - *Trabajo Original* - [Max Medina](https://github.com/maxmedina05)
 
 ## License
 
