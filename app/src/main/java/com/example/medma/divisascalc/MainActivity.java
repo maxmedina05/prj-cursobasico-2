@@ -21,16 +21,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()) {
             case R.id.btn_buy:
-                goToActivity(BuyActivity.class);
+                goToActivity(BuyActivity.class, BuySellBaseActivity.TransactionType.BUY);
                 break;
             case R.id.btn_sell:
-                goToActivity(SellActivity.class);
+                goToActivity(SellActivity.class, BuySellBaseActivity.TransactionType.SELL);
                 break;
         }
     }
 
-    private void goToActivity(Class activity) {
-        Intent intent = new Intent(this, activity);
+    private void goToActivity(Class activity, int type) {
+        Intent intent = new Intent(this, BuySellBaseActivity.class);
+        intent.putExtra(BuySellBaseActivity.EXTRA_TRANSACTION_TYPE, type);
         startActivity(intent);
     }
 }

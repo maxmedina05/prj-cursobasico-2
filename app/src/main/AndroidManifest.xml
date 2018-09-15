@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".BuyActivity" />
-        <activity android:name=".SellActivity"></activity>
+        <activity android:name=".BuySellBaseActivity" />
+        <activity android:name=".SellActivity"/>
     </application>
 
 </manifest>
