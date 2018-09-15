@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Divisas Calc</string>
+    <string name="our_buy_rate_is">Te vendemos:</string>
+    <string name="btn_calculate">Calcular</string>
+    <string name="our_buy_rate_for">Por</string>
+    <string name="btn_buy">Comprar</string>
+    <string name="btn_sell">Vender</string>
+    <string name="our_sell_rate_is">Te compramos:</string>
+    <string name="our_sell_rate_for">Por</string>
+    <string name="what_would_you_like_to_buy">¿Qué deseas hacer?</string>
+</resources>
